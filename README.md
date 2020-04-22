@@ -2,7 +2,7 @@
 ls-tiny is a less functional ls command
 
 # Error
-- **Entering a relative path results in an error**
+- <span style="color: red">Entering a relative path results in an error</span>
 
 # How to install
 
