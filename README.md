@@ -1,6 +1,9 @@
 # ls-tiny
 ls-tiny is a less functional ls command
 
+# Error
+- **Entering a relative path results in an error**
+
 # How to install
 
 `$cargo install ls-tiny`
