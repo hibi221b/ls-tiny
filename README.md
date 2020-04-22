@@ -11,7 +11,4 @@ ls-tiny is a less functional ls command
 
 
 # Error
-- ~~Entering a relative path results in an error~~ --> v0.1.0 
-
-# Modified
-- It is now possible to run with a relative path. (for example For example, if you want to specify the current directory: `ls-tiny .`) --> v0.1.1
+- ~~Entering a relative path results in an error --> v0.1.0~~ (modified v0.1.1)
