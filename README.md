@@ -7,4 +7,5 @@ ls-tiny is a less functional ls command
 
 # Screenshot
 
-<img width="560" alt="ls-tiny_screenshot" src="https://user-images.githubusercontent.com/29950288/79958452-e4c4a780-84bd-11ea-87ba-a2d4a1b61790.png">
+<img width="647" alt="スクリーンショット 2020-04-22 18 52 01" src="https://user-images.githubusercontent.com/29950288/79967910-68849100-84ca-11ea-8e03-c2a703a62cb1.png">
+
