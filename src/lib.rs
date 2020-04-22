@@ -95,7 +95,7 @@ impl Config {
                     "dir ".cyan()
                 };
     
-                println!("{}:  {}  -  {}", self.entries , entry_type , get_name(&entry.path()));
+                println!("{}: {} - {}", self.entries , entry_type , get_name(&entry.path()));
             }
         }
 
@@ -109,5 +109,10 @@ impl Config {
 
 /// extracts only the name from the path
 fn get_name(path: &Path) -> &str {
+
+    if path == Path::new(".") {
+        return "current";
+    }
+    
     path.file_name().unwrap().to_str().unwrap()
 }
