@@ -113,6 +113,10 @@ fn get_name(path: &Path) -> &str {
     if path == Path::new(".") {
         return "current";
     }
+
+    if path == Path::new("..") {
+        return "parent";
+    }
     
     path.file_name().unwrap().to_str().unwrap()
 }
