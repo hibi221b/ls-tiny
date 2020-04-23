@@ -5,6 +5,10 @@ ls-tiny is a less functional ls command
 
 `$ cargo install ls-tiny`
 
+# Demo
+
+![lstiny](https://user-images.githubusercontent.com/29950288/80045180-9a850a00-8541-11ea-8933-860307eed0ba.gif)
+
 # Screenshot
 
 <img width="647" alt="スクリーンショット 2020-04-22 18 52 01" src="https://user-images.githubusercontent.com/29950288/79967910-68849100-84ca-11ea-8e03-c2a703a62cb1.png">
