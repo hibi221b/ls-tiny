@@ -37,3 +37,4 @@ ARGS:
 
 # Error
 - ~~Entering a relative path results in an error --> v0.1.0~~ (modified v0.1.1)
+- ~~An error occurs when a parent directory is specified -> v0.1.3~~ (modified v0.1.4)
