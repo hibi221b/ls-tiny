@@ -99,7 +99,8 @@ impl Config {
             }
         }
 
-        let dir_name = get_name(self.search_dir.as_path()).magenta();
+        // let dir_name = get_name(self.search_dir.as_path()).magenta();
+        let dir_name = self.search_dir.as_path().to_str().unwrap().magenta();
         let entries = self.entries.to_string().magenta();
 
         println!("\ndir: {}, file: {}", self.dirs.to_string().cyan(), self.files.to_string().green());
@@ -108,15 +109,6 @@ impl Config {
 }
 
 /// extracts only the name from the path
-fn get_name(path: &Path) -> &str {
-
-    if path == Path::new(".") {
-        return "current";
-    }
-
-    if path == Path::new("..") {
-        return "parent";
-    }
-    
+fn get_name(path: &Path) -> &str {   
     path.file_name().unwrap().to_str().unwrap()
 }
