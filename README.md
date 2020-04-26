@@ -6,11 +6,11 @@ ls-tiny is a less functional ls command
 `$ cargo install ls-tiny`
 
 # Environment
-mac
+mac (ls-tiny can **NOT** display the color on windows os.)
 
 # Demo
 
-![lstiny](https://user-images.githubusercontent.com/29950288/80045180-9a850a00-8541-11ea-8933-860307eed0ba.gif)
+![movie](https://user-images.githubusercontent.com/29950288/80307787-4b233000-8806-11ea-8529-58f78dd62ea0.gif)
 
 # Screenshot
 
@@ -39,7 +39,7 @@ ARGS:
 `$ ls-tiny DIRECTORY`
 
 # Update
-- It can run against all directories. (`ls-tiny ../../../`) - v0.1.5
+- ls-tiny can run against all directories. (`ls-tiny ../../../`) - v0.1.5
 
 # Error
 - ~~Entering a relative path results in an error --> v0.1.0~~ (modified v0.1.1)
