@@ -5,6 +5,9 @@ ls-tiny is a less functional ls command
 
 `$ cargo install ls-tiny`
 
+# Environment
+mac
+
 # Demo
 
 ![lstiny](https://user-images.githubusercontent.com/29950288/80045180-9a850a00-8541-11ea-8933-860307eed0ba.gif)
